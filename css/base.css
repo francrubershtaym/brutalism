@@ -9,7 +9,7 @@
   font-family: var(--ff);
   font-weight: 400;
 }
-body{
+body {
   background: var(--bg);
   min-width: 320px;
   color: var(--white);
@@ -27,4 +27,21 @@ body{
   height: 100%;
   margin: 0 auto;
   padding: 0 15px;
+}
+button {
+  background: none;
+}
+.subtitle {
+  font-family: var(--ff);
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 90%;
+  color: var(--white);
+}
+.title {
+  font-family: var(--ff);
+  font-weight: 500;
+  font-size: 48px;
+  line-height: 90%;
+  color: var(--white);
 }

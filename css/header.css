@@ -90,6 +90,10 @@
 }
 
 @media screen and (max-width: 768px) {
+  .header{
+    height: auto;
+    background: none;
+  }
     .header__nav{
         background: var(--bg);
     }
