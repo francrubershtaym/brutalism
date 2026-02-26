@@ -1,0 +1,145 @@
+.contacts {
+    margin-bottom: 140px;
+}
+
+.contacts__wrap {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts__left {
+    max-width: 730px;
+    width: 100%;
+}
+
+.contacts__left-img {
+    width: 100%;
+}
+
+.contacts__right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.contacts__right-name {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts__right-name_title-1 {
+    font-family: var(--ff);
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 90%;
+    color: var(--white);
+}
+
+.contacts__right-name_title-2 {
+    font-family: var(--ff);
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 90%;
+    color: var(--white);
+}
+
+.contacts__right-desc {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.contacts__right-desc_call {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts__right-desc_call-title {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 90%;
+    color: var(--white);
+}
+
+.contacts__right-desc_call-number {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90%;
+    color: var(--white);
+}
+
+.contacts__right-desc_location {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts__right-desc_location-title {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 90%;
+    color: var(--white);
+}
+
+.contacts__right-desc_location-map {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90%;
+    color: var(--white);
+}
+
+.contacts__right-desc_mail {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts__right-desc_mail-title {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 90%;
+    color: var(--white);
+}
+
+.contacts__right-desc_mail-link {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 90%;
+    color: var(--white);
+}
+
+.contacts__right-desc_social {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.contacts__right-desc_social-title {
+    font-family: var(--ff);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 90%;
+    color: var(--white);
+}
+.contacts__right-desc_social-list{
+    display: flex;
+    align-items: center;
+    gap: 42px;
+}
+
+
+@media screen  and  (max-width:1045px) {
+
+    .contacts__wrap{
+        flex-direction: column;
+        gap:40px;
+    }
+}
